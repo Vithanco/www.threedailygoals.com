@@ -21,6 +21,14 @@
         <meta property="og:image" content="https://threedailygoals.de/logo.png"/>
         <script>    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init('phc_5Cyj6ACFJq02Ews6GFYzP8ONYXNXoHcmY1k21kacuam',{api_host:'https://eu.posthog.com'})</script>
+        <script>function scrollSlider(button, direction) {
+    const container = button.parentElement;
+    const slider = container.querySelector('.screenshot-slider');
+    const slideWidth = slider.querySelector('.screenshot-slide').offsetWidth;
+    const gap = 24; // 1.5em gap
+    const scrollAmount = (slideWidth + gap) * direction;
+    slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+}</script>
     </head>
     <body>
         <header>
@@ -40,7 +48,148 @@
             <article>
                 <h1>Don't drown in your own to-dos</h1>
                 <p class="description">The process-driven Task Manager</p>
-                <div class="content"><h3>A calmer way to get things done — without the guilt.</h3><p>You’ve tried every task manager.<br>You color-coded, prioritized, categorized.<br>But over time, your to-do list became a wall of shame — a reminder of everything you <em>didn’t</em> do.<br><br><strong>Three Daily Goals</strong> is built for people who’ve had enough of productivity pressure.<br>It helps you focus on what truly matters, and gently lets go of what doesn’t.</p><blockquote><p>“Finally, a task manager that doesn’t make me feel behind. I actually <em>look forward</em> to opening it.” — <strong>Lena, designer</strong></p></blockquote><h2>How it works</h2><ul><li><strong>Three goals a day.</strong> Each day, choose three meaningful tasks — your daily wins.</li></ul><ul><li><strong>Compass Check.</strong> A short daily reflection that helps you pick your next goals and keep your direction.</li></ul><ul><li><strong>No more clutter.</strong> Tasks you ignore for too long are <em>moved to the graveyard</em> — out of sight, out of guilt.</li></ul><ul><li><strong>A streak that feels good.</strong> Every day you do a Compass Check, your streak grows — a small reward for staying present.<ul></ul></li></ul><blockquote><p>“I stopped using every productivity app because they made me anxious. Three Daily Goals feels like a deep breath.” — <strong>Tom, developer</strong></p></blockquote><h2>Why it works</h2><p>Most tools treat tasks like a <strong>bucket</strong> you must empty. Real life is a <strong>river</strong> — it keeps flowing.</p><p><strong>Three Daily Goals</strong> embraces the river:</p><ul><li>You pick <strong>three meaningful wins</strong> for the next day/today.</li><li>Stale items <strong>flow out</strong> to the graveyard after 30 days (you can revive anytime).</li><li>You keep momentum without the guilt of an ever-growing bucket.</li></ul><p>This reframes your to-dos from “finish everything” to “choose wisely and keep moving.”<br>Inspired by the <em>rivers, not buckets</em> metaphor popularized by Sketchplanations and Oliver Burkeman. <a href="https://sketchplanations.com/rivers-and-buckets">Learn more →</a></p><blockquote><p>“I get more done with less effort — but more importantly, I feel lighter. My list doesn’t own me anymore.” — <strong>Sara, researcher</strong></p></blockquote><p><a href="/system"><strong>Why Three Daily Goals works →</strong></a></p><h2>Ready to breathe again?</h2><p><strong>Three Daily Goals</strong> is available for <strong>iPhone, iPad, and Mac.</strong></p><p><a href="https://apps.apple.com/app/id6474504409"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store"/></a></p><p>Or learn more about the ideas behind it: <a href="/system"><strong>Why Three Daily Goals works →</strong></a></p></div>
+                <div class="content"><h3>A calmer way to get things done — without the guilt.</h3><p><strong>Three Daily Goals</strong> is now open source! Check out the code on <a href="https://github.com/Vithanco/ThreeDailyGoals">GitHub</a> or subscribe to the <a href="https://newsletter.threedailygoals.com">newsletter</a> for updates and productivity insights.</p><p>You've tried every task manager. You color-coded, prioritized, categorized. But over time, your to-do list became a wall of shame — a reminder of everything you <em>didn't</em> do.</p><p><strong>Three Daily Goals</strong> is built for people who've had enough of productivity pressure. It helps you focus on what truly matters, and gently lets go of what doesn't.</p><blockquote><p>“Finally, a task manager that doesn’t make me feel behind. I actually <em>look forward</em> to opening it.” — <strong>Lena, designer</strong></p></blockquote><div class="screenshot-gallery-section">
+    <div class="screenshot-set platform-ios" style="--screenshot-scale: 0.5;">
+        <h3>Beautiful on iPhone</h3>        <p class="screenshot-description">Simple, focused interface designed for quick daily planning</p>
+        <div class="screenshot-slider-container">
+            <div class="screenshot-slider">
+                <ul>
+                <li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 1.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 2.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 3.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 4.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 5.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 6.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 7.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iOS/6.9 iphone 8.png" alt="Beautiful on iPhone screenshot"/>
+    </div>
+</li>
+                </ul>
+            </div>
+            <button class="slider-arrow slider-arrow-prev" aria-label="Previous screenshot" onclick="scrollSlider(this, -1)">‹</button>
+            <button class="slider-arrow slider-arrow-next" aria-label="Next screenshot" onclick="scrollSlider(this, 1)">›</button>
+        </div>
+    </div>
+</div><h2>How it works</h2><ul><li><strong>Three goals a day.</strong> Each day, choose three meaningful tasks — your daily wins.</li></ul><ul><li><strong>Compass Check.</strong> A short daily reflection that helps you pick your next goals and keep your direction.</li></ul><ul><li><strong>No more clutter.</strong> Tasks you ignore for too long are <em>moved to the graveyard</em> — out of sight, out of guilt.</li></ul><ul><li><strong>A streak that feels good.</strong> Every day you do a Compass Check, your streak grows — a small reward for staying present.<ul></ul></li></ul><blockquote><p>“I stopped using every productivity app because they made me anxious. Three Daily Goals feels like a deep breath.” — <strong>Tom, developer</strong></p></blockquote><div class="screenshot-gallery-section">
+    <div class="screenshot-set platform-mac" style="--screenshot-scale: 0.3;">
+        <h3>Native on Mac</h3>        <p class="screenshot-description">Seamlessly integrated with your macOS workflow</p>
+        <div class="screenshot-slider-container">
+            <div class="screenshot-slider">
+                <ul>
+                <li>
+    <div class="screenshot-slide">
+        <img src="/images/macOS/macOS 1.png" alt="Native on Mac screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/macOS/macOS 2.png" alt="Native on Mac screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/macOS/macOS 3.png" alt="Native on Mac screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/macOS/macOS 4.png" alt="Native on Mac screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/macOS/macOS 5.png" alt="Native on Mac screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/macOS/macOS 6.png" alt="Native on Mac screenshot"/>
+    </div>
+</li>
+                </ul>
+            </div>
+            <button class="slider-arrow slider-arrow-prev" aria-label="Previous screenshot" onclick="scrollSlider(this, -1)">‹</button>
+            <button class="slider-arrow slider-arrow-next" aria-label="Next screenshot" onclick="scrollSlider(this, 1)">›</button>
+        </div>
+    </div>
+</div><h2>Why it works</h2><p>Most tools treat tasks like a <strong>bucket</strong> you must empty. Real life is a <strong>river</strong> — it keeps flowing.</p><p><strong>Three Daily Goals</strong> embraces the river:</p><ul><li>You pick <strong>three meaningful wins</strong> for the next day/today.</li><li>Stale items <strong>flow out</strong> to the graveyard after 30 days (you can revive anytime).</li><li>You keep momentum without the guilt of an ever-growing bucket.</li></ul><p>This reframes your to-dos from “finish everything” to “choose wisely and keep moving.”<br>Inspired by the <em>rivers, not buckets</em> metaphor popularized by Sketchplanations and Oliver Burkeman. <a href="https://sketchplanations.com/rivers-and-buckets">Learn more →</a></p><blockquote><p>“I get more done with less effort — but more importantly, I feel lighter. My list doesn’t own me anymore.” — <strong>Sara, researcher</strong></p></blockquote><p><a href="/system"><strong>Why Three Daily Goals works →</strong></a></p><h2>Ready to breathe again?</h2><p><strong>Three Daily Goals</strong> is available for <strong>iPhone, iPad, and Mac.</strong></p><p><a href="https://apps.apple.com/app/id6474504409"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store"/></a></p><p>Or learn more about the ideas behind it: <a href="/system"><strong>Why Three Daily Goals works →</strong></a></p><h2>See Three Daily Goals in Action</h2><div class="screenshot-gallery-section">
+    <div class="screenshot-set platform-ipad" style="--screenshot-scale: 0.4;">
+        <h3>Powerful on iPad</h3>        <p class="screenshot-description">Take advantage of the larger screen with split-view support</p>
+        <div class="screenshot-slider-container">
+            <div class="screenshot-slider">
+                <ul>
+                <li>
+    <div class="screenshot-slide">
+        <img src="/images/iPadOS/iPad1.png" alt="Powerful on iPad screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iPadOS/iPad2.png" alt="Powerful on iPad screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iPadOS/iPad3.png" alt="Powerful on iPad screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iPadOS/iPad4.png" alt="Powerful on iPad screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iPadOS/iPad5.png" alt="Powerful on iPad screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iPadOS/iPad6.png" alt="Powerful on iPad screenshot"/>
+    </div>
+</li>
+<li>
+    <div class="screenshot-slide">
+        <img src="/images/iPadOS/iPad7.png" alt="Powerful on iPad screenshot"/>
+    </div>
+</li>
+                </ul>
+            </div>
+            <button class="slider-arrow slider-arrow-prev" aria-label="Previous screenshot" onclick="scrollSlider(this, -1)">‹</button>
+            <button class="slider-arrow slider-arrow-next" aria-label="Next screenshot" onclick="scrollSlider(this, 1)">›</button>
+        </div>
+    </div>
+</div></div>
  
                 <br/>
                 <div class="tag-wrapper">
@@ -50,9 +199,9 @@
                             <a href="/tags/support.html">support</a></li></ul></div></article>
             <aside class="side-content">
                 <div class="newsletter" height="350" width="250">
-                    <img src="/images/socialmedia-icons/SubstackWordmarkSmall.svg" alt="Newsletter Wordmark" width="250"/>
-                    <p>See how you can combine your brain power with structured visual and achieve better results.</p>
-                    <a href="https://newsletter.vithanco.com">Subscribe to my newsletter</a></div>
+                    <img src="/images/Wordmark.png" alt="Newsletter Wordmark" width="250"/>
+                    <p>Get productivity insights and updates on Three Daily Goals.</p>
+                    <a href="https://newsletter.threedailygoals.com">Subscribe to newsletter</a></div>
                 <a href="https://apple.co/3wwfNja">
                     <img src="/images/apple/white.svg" alt="Download it on the App Store" class="download-button img"/></a></aside></div>
         <footer>
